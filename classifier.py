@@ -1,25 +1,15 @@
 import numpy as np
 from sklearn.tree import DecisionTreeClassifier
 from transformers import TFAutoModelForSequenceClassification, AutoTokenizer
+from datasets import load_dataset
 
 # Preprocessing and preparing the text data
-texts = [
-    "This is a positive review.",
-    "I enjoyed the movie a lot.",
-    "The food at the restaurant was delicious.",
-    "The product didn't meet my expectations.",
-    "I had a terrible experience with the service.",
-    "The book was very informative."
-]
+# Load the dataset from Hugging Face
+dataset = load_dataset("imdb")
 
-labels = [
-    "positive",
-    "positive",
-    "positive",
-    "negative",
-    "negative",
-    "positive"
-]
+# Extract the text and label columns from the dataset
+texts = dataset["train"]["text"]
+labels = dataset["train"]["label"]
 
 # Initialize the LLM and tokenizer
 model_name = 'bert-base-uncased'  # Replace with your preferred LLM model

@@ -19,8 +19,9 @@ labels = dataset["train"]["label"]
 model = SentenceTransformer("paraphrase-MiniLM-L6-v2", device="cuda:1")
 keybert_model = KeyBERT(model)
 selected_features = set()
-for text in texts:
-    keywords = keybert_model.extract_keywords(text)
+for i, text in enumerate(texts):
+    print(f"review number: {i}")
+    keywords = keybert_model.extract_keywords(text, keyphrase_ngram_range=(1, 2), stop_words='english')
     selected_features.update([keyword[0] for keyword in keywords])
 
 # Convert the selected features to a feature matrix

@@ -1,0 +1,416 @@
+{
+    "feature": "bad",
+    "threshold": 0.5,
+    "left": {
+        "feature": "worst",
+        "threshold": 0.5,
+        "left": {
+            "feature": "love",
+            "threshold": 0.5,
+            "left": {
+                "feature": "ellen",
+                "threshold": 0.5,
+                "left": {
+                    "feature": "awful",
+                    "threshold": 0.5,
+                    "left": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    },
+                    "right": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    }
+                },
+                "right": {
+                    "feature": "boring",
+                    "threshold": 0.5,
+                    "left": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    },
+                    "right": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    }
+                }
+            },
+            "right": {
+                "feature": "awful",
+                "threshold": 0.5,
+                "left": {
+                    "feature": "wonderful",
+                    "threshold": 0.5,
+                    "left": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    },
+                    "right": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    }
+                },
+                "right": {
+                    "feature": "favorite",
+                    "threshold": 0.5,
+                    "left": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    },
+                    "right": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    }
+                }
+            }
+        },
+        "right": {
+            "feature": "beautiful",
+            "threshold": 0.5,
+            "left": {
+                "feature": "moral",
+                "threshold": 1.5,
+                "left": {
+                    "feature": "al",
+                    "threshold": 7.5,
+                    "left": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    },
+                    "right": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    }
+                },
+                "right": {
+                    "feature": "school staged",
+                    "threshold": -2.0,
+                    "left": {
+                        "class": 0
+                    },
+                    "right": {
+                        "class": 0
+                    }
+                }
+            },
+            "right": {
+                "feature": "old",
+                "threshold": 1.5,
+                "left": {
+                    "feature": "telling",
+                    "threshold": 0.5,
+                    "left": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    },
+                    "right": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    }
+                },
+                "right": {
+                    "feature": "light comedy",
+                    "threshold": 0.5,
+                    "left": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    },
+                    "right": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "right": {
+        "feature": "wonderful",
+        "threshold": 0.5,
+        "left": {
+            "feature": "worst",
+            "threshold": 0.5,
+            "left": {
+                "feature": "ellen",
+                "threshold": 0.5,
+                "left": {
+                    "feature": "bad",
+                    "threshold": 1.5,
+                    "left": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    },
+                    "right": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    }
+                },
+                "right": {
+                    "feature": "awful",
+                    "threshold": 0.5,
+                    "left": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    },
+                    "right": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    }
+                }
+            },
+            "right": {
+                "feature": "favorite",
+                "threshold": 1.5,
+                "left": {
+                    "feature": "movie role",
+                    "threshold": 0.5,
+                    "left": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    },
+                    "right": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    }
+                },
+                "right": {
+                    "feature": "school staged",
+                    "threshold": -2.0,
+                    "left": {
+                        "class": 0
+                    },
+                    "right": {
+                        "class": 0
+                    }
+                }
+            }
+        },
+        "right": {
+            "feature": "east",
+            "threshold": 0.5,
+            "left": {
+                "feature": "performances",
+                "threshold": 0.5,
+                "left": {
+                    "feature": "happened",
+                    "threshold": 0.5,
+                    "left": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    },
+                    "right": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    }
+                },
+                "right": {
+                    "feature": "wonderful music",
+                    "threshold": 0.5,
+                    "left": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    },
+                    "right": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    }
+                }
+            },
+            "right": {
+                "feature": "love",
+                "threshold": 0.5,
+                "left": {
+                    "feature": "comic",
+                    "threshold": 0.5,
+                    "left": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    },
+                    "right": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    }
+                },
+                "right": {
+                    "feature": "movie",
+                    "threshold": 2.5,
+                    "left": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    },
+                    "right": {
+                        "feature": "school staged",
+                        "threshold": -2.0,
+                        "left": {
+                            "class": 0
+                        },
+                        "right": {
+                            "class": 0
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
